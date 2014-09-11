@@ -1,4 +1,23 @@
 HtmlValidatorWithSelenium
 =========================
 
-Using Selenium to grab page contents, and then calling validator.w3.org to validate the page
+Using Selenium to grab page contents, and then calling validator.w3.org to validate the page. See the source code
+to change the URL.
+
+Build
+=====
+
+* Maven 3.1.1
+* Oracle's jdk1.8.0_20.jdk
+* PhantomJS 1.9.7
+
+```
+mvn package
+```
+
+Run
+===
+
+```
+java -jar target/HtmlValidatorWithSelenium-1.0.0.jar
+```
