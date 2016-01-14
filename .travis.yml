@@ -1,4 +1,4 @@
 language: java
 
 script:
-  - mvn package && java -jar target/HtmlValidatorWithSelenium-2.0.0-SNAPSHOT.jar https://validator.w3.org
+  - mvn package
