@@ -53,6 +53,7 @@ public class MainModule {
                 ValidationResults vr = validateContent(pageSource);
                 for (Message m : vr.getMessages()) {
                     if (m.getType().compareTo("error") == 0) {
+                        LOGGER.error(m.getMessage());
                         ++errorCount;
                     }
                     if (m.getType().compareTo("warning") == 0) {
@@ -81,7 +82,7 @@ public class MainModule {
         return -100;
     }
 
-    public static ValidationResults validateContent(String pageSource) {
+    public ValidationResults validateContent(String pageSource) {
         try {
             Client client = ClientBuilder.newClient();
             WebTarget wt = client
