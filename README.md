@@ -6,6 +6,9 @@ Use Selenium to grab a page source and then runs the result through http://valid
 Build
 =====
 
+[![Build Status](https://travis-ci.org/AndrewGorton/HtmlValidatorWithSelenium.svg?branch=develop)](https://travis-ci.org/AndrewGorton/HtmlValidatorWithSelenium)
+
+[!(https://travis-ci.org/AndrewGorton/HtmlValidatorWithSelenium.svg?branch=develop)
 * Maven 3.1.1
 * Oracle's jdk1.8.0_20.jdk
 * PhantomJS 1.9.7
