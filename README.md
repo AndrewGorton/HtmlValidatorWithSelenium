@@ -22,7 +22,7 @@ Run
 Pass the list of URLs to check as parameters. Each is checked in turn.
 
 ```
-$ java -jar target/HtmlValidatorWithSelenium-2.0.0-SNAPSHOT.jar <url> [<url>]
+$ java -jar target/HtmlValidatorWithSelenium-2.0.0.jar <url> [<url>]
 ```
 
 Returns 0 on no errors, or 1 if the total number of errors is above 0. Returns -100 on an internal error. HTML warnings are ignored.
